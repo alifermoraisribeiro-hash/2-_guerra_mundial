@@ -3,6 +3,7 @@ body{
     background: rgb(11, 105, 11);
     margin: 0px;
     font-family: "Permanent Marker", sans-serif;
+    margin-bottom: 100px ;
 }
 header{
     border-bottom: solid 2px rgb(0, 38, 255);
@@ -12,7 +13,7 @@ header{
 }
 
 .chamada{
-    background: white;
+    background: rgb(87, 86, 86);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -28,9 +29,7 @@ h1{
 p{
     font-size: 20px;
 }
-img{
-   height: 200px ; 
-}
+
 .categoria-videos{
     display: flex ;
     overflow-x: auto;
@@ -38,5 +37,18 @@ img{
 }
 .categoria{
   padding-left: 20px ;
-   padding-right: 20px ;    
+   padding-right: 20px ;
+   padding-top: 50px ;    
 }  
+
+.categoria-videos img {
+opacity: 0.5 ;
+height: 200px ;
+}   
+.categoria-videos img:hover{
+opacity: 1.0 ;
+border: 1px solid rgb(204, 129, 30) ;
+}
+.categoria h2{
+  color: black ;  
+}
